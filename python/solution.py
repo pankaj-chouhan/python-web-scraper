@@ -75,5 +75,6 @@ if __name__ == "__main__":
     with ThreadPoolExecutor(max_workers=100) as executor:
         executor.map(fetchJobDetails, links)
     # Final scrapped json data
-    with open("solution.json", "w") as outfile:
+    #filePathNameWExt =  path + '/' + fileName + '.json'
+    with open("output/solution.json", "w") as outfile:
         json.dump(jobDetailval, outfile)
