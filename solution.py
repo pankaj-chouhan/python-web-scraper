@@ -1,6 +1,6 @@
 ################################################################################################
 # Author Name   : Pankaj Kumar                                                                 #
-# Email Id      : pankaj.chouhan7@gmail.com                                                     #
+# Email Id      : pankaj.chouhan7@gmail.com                                                    #
 # File Name     : solution.py                                                                  #
 # Description   : Web scrapper                                                                 #
 # Creation Date : 15-04-2023                                                                   #
