@@ -5,12 +5,12 @@
 # Description   : Web scrapper                                                                 #
 # Creation Date : 15-04-2023                                                                   #
 ################################################################################################
-import requests
 import json
-from bs4 import BeautifulSoup
-from concurrent.futures import ThreadPoolExecutor
-from requests.exceptions import ConnectionError
 import sys
+from concurrent.futures import ThreadPoolExecutor
+
+import requests
+from bs4 import BeautifulSoup
 
 
 # This function returns the list of all the internal individual jobs url
